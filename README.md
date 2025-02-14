@@ -43,7 +43,7 @@ npm install(this will install all the dependencies)
 Create a .env file in the root directory and add:
 
 # MongoDB Connection
-MONGO_URI=your_mongodb_connection_string
+MONGODB=your_mongodb_connection_string
 
 # Cloudinary Credentials
 CLOUDINARY_NAME=your_cloudinary_cloud_name
@@ -55,4 +55,4 @@ The server will start running on the port 3000
 ## To test apis
 use postman to test the api's with the given endpoints in the index.js file
 use .mp4 file(not HD) to upload
-here(max.file size should be less than 100mb), so start testing using small files(from 5mb...) as explained in the cloudinary documents as well.
+here(max.file size should be less than 100mb), so start testing from small files(as 5mb...) as explained in the cloudinary documents as well.
