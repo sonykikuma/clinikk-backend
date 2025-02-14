@@ -52,3 +52,7 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 After .env file is saved, run the backend by writing command:- node index.js
 The server will start running on the port 3000
 
+## To test apis
+use postman to test the api's with the given endpoints in the index.js file
+use .mp4 file(video) to upload,
+here(max. file size should be less than 100mb), so start testing using small files(from 5mb...) as explained in the cloudinary documents as well.
