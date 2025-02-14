@@ -54,5 +54,5 @@ The server will start running on the port 3000
 
 ## To test apis
 use postman to test the api's with the given endpoints in the index.js file
-use .mp4 file(video) to upload
+use .mp4 file(not HD) to upload
 here(max.file size should be less than 100mb), so start testing using small files(from 5mb...) as explained in the cloudinary documents as well.
